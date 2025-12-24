@@ -1,0 +1,19 @@
+{
+  "target": "es6",
+  "module": "commonjs",
+  "declaration": true,
+  "strict": true,
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@design/*": ["./src/design/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@public/*": ["./public/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@router/*": ["./src/router/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

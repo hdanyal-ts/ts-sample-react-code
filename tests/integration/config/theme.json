@@ -1,0 +1,43 @@
+{
+  "tag": [
+    "grey"
+  ],
+  "feature keyword": [
+    "magenta",
+    "bold",
+    "underline"
+  ],
+  "feature name": [
+    "blueBright",
+    "bold"
+  ],
+  "feature description": [
+    "grey",
+    "italic"
+  ],
+  "location": [
+    "black"
+  ],
+  "scenario keyword": [
+    "magenta",
+    "bold",
+    "underline"
+  ],
+  "scenario name": [
+    "greenBright",
+    "bold"
+  ],
+  "step keyword": [
+    "magenta",
+    "bold"
+  ],
+  "step message": [
+    "yellow"
+  ],
+  "step text": [
+    "green"
+  ],
+  "datatable border": [
+    "magenta"
+  ]
+}

@@ -1,0 +1,22 @@
+module.exports = {
+  pageName: '#app-layout',
+  HUDDLE_BOARD_NAV: '#huddle-board-nav',
+  SIDEBAR: '#sidebar',
+  PREVIOUS_HANDOFF_LINK: '#previous-handoff-link',
+  CURRENT_HANDOFF_LINK: '#current-handoff-link',
+  REPORTS_LINK: '#reports-link',
+  HUDDLE_BOARD_LINK: '#huddle-board-link',
+  DEFECT_LOG_LINK: '#defect-log-link',
+  SCHEDULE_DROPDOWN: '#schedule-dropdown',
+  LIVE_SCHEDULE_LINK: '#live-schedule-link',
+  RAW_ATTRIBUTES_LINK: '#raw-attributes-link',
+  PRODUCTION_SCHEDULE_LINK: '#production-schedule-link',
+  CENTERLINE_DROPDOWN: '#centerline-dropdown',
+  OVERVIEW_LINK: '#overview-link',
+  DEVIATIONS_LINK: '#deviations-link',
+  RECIPE_CAT_LINK: '#recipe-catalogue-link',
+  SETTINGS_LINK: '#settings-link',
+  RECAP_LINK: '#recap-link',
+  ACTION_LOG_LINK: '#action-log-link',
+  KPI_LINK: '#kpi-link'
+}

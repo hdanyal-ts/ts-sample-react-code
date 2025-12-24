@@ -1,0 +1,77 @@
+{
+  "name": "opsportal-react-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standard | snazzy",
+    "fix": "standard --fix | snazzy",
+    "test": "yarn test:unit && yarn test:int",
+    "test:int": "cucumber-js --config tests/integration/config/index.js",
+    "test:local": "APP_ENV=local yarn test:int",
+    "test:report": "node tests/integration/report/index.js",
+    "test:unit": "riteway -r @swc/register 'tests/unit/**/*.test.js' | tap-nirvana"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.112.9",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-select": "^5.7.7",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "sharp": "^0.31.3",
+    "styled-components": "^5.3.9",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@swc/core": "^1.3.99",
+    "@swc/register": "^0.1.10",
+    "assert": "^2.1.0",
+    "cucumber-to-html": "^1.0.3",
+    "lodash": "^4.17.21",
+    "puppeteer": "^21.4.1",
+    "require-all": "^3.0.0",
+    "riteway": "^7.0.0",
+    "snazzy": "^9.0.0",
+    "standard": "^17.1.0",
+    "tap-nirvana": "^1.1.0",
+    "tree-kill": "^1.2.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
